@@ -7,7 +7,7 @@ public class EleInt{
 	//clear
 	//getText
 	
-	public static void Myclick(WebElement ele)
+	public static void Myclick(WebElement ele) //ele --> //a[text()='A/B Testing']
 	{
 		//ele.click();
 		if(ele!=null)

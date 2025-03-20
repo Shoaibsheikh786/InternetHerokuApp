@@ -23,6 +23,9 @@ public class JSE extends SetUp {
 		jse.executeScript("window.scrollBy("+x+",0);");
 	}
 	
+	
+	//more methods --> to scroll page --> x, y , actionsCasll
+	
 
 	
 	

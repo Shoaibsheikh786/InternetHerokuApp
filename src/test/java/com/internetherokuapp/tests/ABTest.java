@@ -28,6 +28,7 @@ public class ABTest extends SetUp{
 	   act=act.substring(0, 8);
 	//   System.out.println("Act --> "+act);
 	   Assert.assertEquals(act,"A/B Test");
+	   Assert.assertTrue(false);
 		  
 	}
 	
@@ -68,6 +69,8 @@ public class ABTest extends SetUp{
 	{
 		boolean b=abPage.eleBtnPresent();
 		Assert.assertTrue(b);
+		 Assert.assertTrue(false);
+		  
 	}
 	
 	
