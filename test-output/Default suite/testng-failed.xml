@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.internetherokuapp.tests.ABTest">
+      <class name="com.internetherokuapp.tests.CheckBoxesTests">
         <methods>
-          <include name="verifyParaEndsWith"/>
-          <include name="validateHeader"/>
-          <include name="verifyParaStartsWithText"/>
+          <include name="verifyCheckBoxlink"/>
         </methods>
-      </class> <!-- com.internetherokuapp.tests.ABTest -->
+      </class> <!-- com.internetherokuapp.tests.CheckBoxesTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

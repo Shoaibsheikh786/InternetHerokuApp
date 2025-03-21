@@ -2,6 +2,7 @@ package com.internetherokuapp.tests;
 
 public class AddRemElemTest {
 	
+	//--> A -j 
 	
 	//#-> 1. Verify that Add/Remove Elements link is working
 	//#-> 2. Verify that Add Elements button is working
