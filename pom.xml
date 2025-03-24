@@ -6,6 +6,29 @@
 	<artifactId>InternetHerokuApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<build>
+		<!-- To define the plugin version in your parent POM -->
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.5.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>
+                                abTest.xml
+							</suiteXmlFile>
+
+						</suiteXmlFiles>
+
+					</configuration>
+				</plugin>
+			</plugins>
+
+		</pluginManagement>
+	</build>
+
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

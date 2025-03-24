@@ -1,0 +1,6 @@
+com\internetherokuapp\tests\CheckBoxesTests.class
+com\internetherokuapp\tests\AddRemElemTest.class
+com\internetherokuapp\tests\DropdownTest.class
+com\project\listernes\MyListener.class
+com\project\listernes\RetryListenr.class
+com\internetherokuapp\tests\ABTest.class
